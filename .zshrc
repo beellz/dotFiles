@@ -8,7 +8,10 @@ export ZSH="/root/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="norm"
+ZSH_THEME="steeef"
+
+#ZSH_THEME="norm"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -110,6 +113,7 @@ alias ta="tmux attach -t"
 alias tls="tmux ls"
 alias tkill="tmux kill-session -t "
 
+neofetch
 
 function chpwd() {
 	  ls }
